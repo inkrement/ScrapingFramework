@@ -1,0 +1,24 @@
+{
+    "name": "inkrement/ScrapingFramework",
+    "description": "Logging, Preferences and Helper libs for web scraping",
+    "license": "MIT",
+    "keywords": ["scraping", "web"],
+    "authors": [
+        {
+            "name": "Christian Hotz-Behofsits",
+            "email": "christian.hotz-behofsits@wu.ac.at"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^1.17",
+        "theorchard/monolog-cascade": "^0.3.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Inkrement\\ScrapingFramework\\": "src"
+        }
+    }
+}
